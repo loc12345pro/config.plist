@@ -1,0 +1,11 @@
+  #######################################################
+ #               MacPro7,1 SMBIOS Info                 #
+#######################################################
+
+Type:         MacPro7,1
+Serial:       F5KKKVZHP7QM
+Board Serial: F5K315301QXK3F7CB
+SmUUID:       7BC6728E-C8E2-446B-A541-EB6C69DFB4FB
+Apple ROM:    F4F15A7950EC
+
+Press [enter] to return...
