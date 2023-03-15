@@ -5,7 +5,7 @@ On 14/03/2023, I changed the below settings in BIOS:
 
 The current settings of BIOS:
   - Fast Boot: Disabled
-  - Fast Boot MSI: Disabled
+  - MSI Fast Boot: Disabled
   - Secure Boot: Disabled
   - Serial/COM Port: Not found in Settings -> Advanced -> Integrated Peripherals
   - Parallel Port: Like as right above
@@ -21,7 +21,7 @@ The current settings of BIOS:
   - Hyper-Threading: Enabled
   - NX Bit (Execute Disable Bit): Yes (locked)
   - XHCI Hand-off: Enabled
-  - Integrated Graphic Shared Memory: 64M (default)
+  - Integrated Graphics Shared Memory: 64M (default)
   - SATA Mode: RAID0 (I will not set to AHCI Mode)
 
 Where to look for these variables in MSI Mortar B660M DDR4 BIOS (version 11/10/2022)?
