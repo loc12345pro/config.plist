@@ -1,0 +1,40 @@
+On 14/03/2023, I changed the below settings in BIOS:
+  - Fast Boot: Enabled -> Disabled.
+  - Secure Boot: Enabled -> Disabled.
+  - CFG Lock: Enabled -> Disabled.
+
+The current settings of BIOS:
+  - Fast Boot: Disabled
+  - Fast Boot MSI: Disabled
+  - Secure Boot: Disabled
+  - Serial/COM Port: Not found in Settings -> Advanced -> Integrated Peripherals
+  - Parallel Port: Like as right above
+  - Intel VT-d Tech: Enabled
+  - BIOS CSM/UEFI Mode: UEFI
+  - Thunderbolt: Disabled
+  - Intel SGX: Not found. Probably in MSI laptop, not in desktops.
+  - Intel Platform Trust: Enabled (OpenCore suggested to disable. However, I wanted to keep it enabled because of Windows 11. But if Hackintosh crashes, I will disable it)
+  - CFG Lock: Disabled
+  
+  - Intel Virtualization Tech: Enabled
+  - Re-Size Bar Support: Enabled
+  - Hyper-Threading: Enabled
+  - NX Bit (Execute Disable Bit): Yes (locked)
+  - XHCI Hand-off: Enabled
+  - Integrated Graphic Shared Memory: 64M (default)
+  - SATA Mode: RAID0 (I will not set to AHCI Mode)
+
+Where to look for these variables in MSI Mortar B660M DDR4 BIOS (version 11/10/2022)?
+  - Fast Boot: Settings -> Boot -> Fast Boot
+  - Secure Boot: Settings -> Security -> Secure Boot -> Secure Boot
+  - VT-d: Overclocking -> CPU Features ->  Intel VT-D Tech
+  - CSM: Settings -> Advanced -> BIOS CSM/UEFI Mode
+  - Thunderbolt: Settings -> Advanced -> Intel (R) Thunderbolt -> Discrete Thunderbolt(TM) Support
+  - CFG Lock: Overclocking -> CPU Features -> CFG Lock
+  - VT-x: Overclocking -> CPU Features -> Intel Virtualization Tech
+  - Re-Size BAR Support: Settings -> Advanced -> PCIe/PCI Sub-system Settings -> Re-Size BAR Support
+  - Hyper-Threading: Overclocking -> Advanced CPU Configuration -> Hyper-Threading
+  - Execute Disable Bit (NX bit): Overclocking -> CPU Specifications -> CPU Technology Support -> NX bit
+  - XHCI Hand-off: Settings -> Advanced -> USB Configuration -> XHCI Hand-off
+  - DVMT Pre-Allocated (iGPU Memory): Setting -> Advanced -> Integrated Graphics Configuration -> Integrated Graphic Shared Memory
+  - SATA Mode: Settings -> Advanced -> Integrated Peripherals -> SATA Configuration
