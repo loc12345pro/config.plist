@@ -1,0 +1,4 @@
+ALC1200:
+
+0x100001, 0x100101, 0x100202, 0x100302, layout 1, 2, 3, 4, 5, 7, 11, 27, 28, 29
+(https://github.com/acidanthera/AppleALC/wiki/Supported-codecs)
