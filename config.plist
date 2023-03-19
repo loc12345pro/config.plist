@@ -265,6 +265,8 @@
 			<dict>
 				<key>layout-id</key>
 				<data>AQAAAA==</data>
+				<key>alc-delay</key>
+				<integer>1000</integer>
 				<key>alctcsel</key>
 				<data>AQAAAA==</data>
 			</dict>
