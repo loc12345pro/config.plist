@@ -2,8 +2,3 @@ ALC1200:
 
 0x100001, 0x100101, 0x100202, 0x100302, layout 1, 2, 3, 4, 5, 7, 11, 27, 28, 29
 (https://github.com/acidanthera/AppleALC/wiki/Supported-codecs)
-
-Audio controller's location:
-
-00:1f.3 8086:7ad0 /PC00@0/HDEF@1F,3 = PciRoot(0x0)/Pci(0x1F,0x3)
-(https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#making-layout-id-more-permanent)
