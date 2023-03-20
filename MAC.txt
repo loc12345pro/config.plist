@@ -1,0 +1,7 @@
+Original MAC address: 04:7c:16:44:38:34
+
+04:7C:16	Micro-St	Micro-Star INTL CO., LTD.
+
+Refs:
+  1. https://gitlab.com/wireshark/wireshark/-/raw/master/manuf
+  2. https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#choose-a-mac-address
