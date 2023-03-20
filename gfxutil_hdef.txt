@@ -1,0 +1,1 @@
+00:1f.3 8086:7ad0 /PC00@0/HDEF@1F,3 = PciRoot(0x0)/Pci(0x1F,0x3)
