@@ -1,6 +1,6 @@
-ALC1200:
+ALCS1200A:
 
-0x100001, 0x100101, 0x100202, 0x100302, layout 1, 2, 3, 4, 5, 7, 11, 27, 28, 29
+0x100001, layout 1, 2, 3, 7, 11, 49, 50, 51, 52, 69
 (https://github.com/acidanthera/AppleALC/wiki/Supported-codecs)
 
 Audio controller's location:
