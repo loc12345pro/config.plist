@@ -1,0 +1,6 @@
+locpham@Locs-Mac-Pro 01_hackintosh % sudo pmset autopoweroff 0
+locpham@Locs-Mac-Pro 01_hackintosh % sudo pmset powernap 0
+locpham@Locs-Mac-Pro 01_hackintosh % sudo pmset standby 0
+locpham@Locs-Mac-Pro 01_hackintosh % sudo pmset proximitywake 0
+locpham@Locs-Mac-Pro 01_hackintosh % sudo pmset tcpkeepalive 0
+Warning: This option disables TCP Keep Alive mechanism when sytem is sleeping. This will result in some critical features like 'Find My Mac' not to function properly.
