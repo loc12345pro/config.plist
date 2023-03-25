@@ -4,3 +4,14 @@ locpham@Locs-Mac-Pro 01_hackintosh % sudo pmset standby 0
 locpham@Locs-Mac-Pro 01_hackintosh % sudo pmset proximitywake 0
 locpham@Locs-Mac-Pro 01_hackintosh % sudo pmset tcpkeepalive 0
 Warning: This option disables TCP Keep Alive mechanism when sytem is sleeping. This will result in some critical features like 'Find My Mac' not to function properly.
+
+--- BIOS SETTINGS ---
+
+Wake on LAN: Disabled.
+
+Trusted Platform Module: Enabled.
+Note that if you're using BitLocker in Windows, disabling this will result in all your encryption keys being lost. If you're using BitLocker, either disable or note that it may be a cause for wake issues.
+
+Wake on USB: Disabled.
+Certain boards may actually require this on to wake, but most will get random wakeup calls with it.
+
